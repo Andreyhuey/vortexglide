@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`left-0 top-0 z-30 ${
-          nav ? "bg-black" : ""
+        className={`fixed h-auto w-full left-0 top-0 z-30 ${
+          nav ? "bg-black" : "bg-black"
         } py-5 px-4 lg:px-16`}
       >
         <div>
