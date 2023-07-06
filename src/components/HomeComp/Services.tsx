@@ -3,18 +3,18 @@ import { FaArrowRight } from "react-icons/fa";
 
 // Images
 import Image from "next/image";
-import phone from "../assets/Group_48.svg";
-import pc from "../assets/Group_49.svg";
-import ps4 from "../assets/Group_50.svg";
-import av from "../assets/Group_51.svg";
-import avr from "../assets/Group_52.svg";
-import threed from "../assets/Group_53.svg";
+import phone from "../../assets/Group_48.svg";
+import pc from "../../assets/Group_49.svg";
+import ps4 from "../../assets/Group_50.svg";
+import av from "../../assets/Group_51.svg";
+import avr from "../../assets/Group_52.svg";
+import threed from "../../assets/Group_53.svg";
 
 const Services = () => {
   return (
     <>
       <div
-        className={`py-12 px-4 lg:px-40 bg-[url('../assets/services-bg.svg')] bg-blend-darken `}
+        className={`py-12 px-4 lg:px-40 bg-[url('../../assets/services-bg.svg')] bg-blend-darken `}
       >
         <div className="py-7">
           <div className="flex items-center justify-center py-7">

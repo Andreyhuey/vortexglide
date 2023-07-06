@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import console from "../assets/joy_stick_1.svg";
-import unity from "../assets/unity_1.svg";
-import unreal from "../assets/unreal_1.svg";
-import cryEngine from "../assets/cry_1.svg";
+import console from "../../assets/joy_stick_1.svg";
+import unity from "../../assets/unity_1.svg";
+import unreal from "../../assets/unreal_1.svg";
+import cryEngine from "../../assets/cry_1.svg";
 
 const Header = () => {
   return (

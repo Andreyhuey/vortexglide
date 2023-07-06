@@ -2,12 +2,12 @@ import React from "react";
 
 // images
 import Image from "next/image";
-import Image1 from "../assets/Rectangle_15.svg";
-import Image2 from "../assets/Rectangle_16.svg";
-import Image3 from "../assets/Rectangle_17.svg";
-import Image4 from "../assets/Rectangle_18.svg";
-import Image5 from "../assets/Rectangle_19.svg";
-import Image6 from "../assets/Rectangle_20.svg";
+import Image1 from "../../assets/Rectangle_15.svg";
+import Image2 from "../../assets/Rectangle_16.svg";
+import Image3 from "../../assets/Rectangle_17.svg";
+import Image4 from "../../assets/Rectangle_18.svg";
+import Image5 from "../../assets/Rectangle_19.svg";
+import Image6 from "../../assets/Rectangle_20.svg";
 import Link from "next/link";
 
 const Projects = () => {

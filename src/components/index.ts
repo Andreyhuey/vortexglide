@@ -1,10 +1,10 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Header from "./Header";
-import Trending from "./Trending";
-import Desc from "./Desc";
-import Services from "./Services";
-import Projects from "./Projects";
+import Header from "./HomeComp/Header";
+import Trending from "./HomeComp/Trending";
+import Desc from "./HomeComp/Desc";
+import Services from "./HomeComp/Services";
+import Projects from "./HomeComp/Projects";
 import Newsletter from "./Newsletter";
 
 export {

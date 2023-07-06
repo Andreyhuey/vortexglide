@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import spiderMan from "../assets/Rectangle_4.svg";
+import spiderMan from "../../assets/Rectangle_4.svg";
 
 const Desc = () => {
   return (

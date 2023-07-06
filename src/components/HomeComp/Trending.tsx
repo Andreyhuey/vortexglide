@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import Image1 from "../assets/Rectangle_23.svg";
-import Image2 from "../assets/Rectangle_24.svg";
-import Image3 from "../assets/Rectangle_25.svg";
-import Image4 from "../assets/Rectangle_26.svg";
+import Image1 from "../../assets/Rectangle_23.svg";
+import Image2 from "../../assets/Rectangle_24.svg";
+import Image3 from "../../assets/Rectangle_25.svg";
+import Image4 from "../../assets/Rectangle_26.svg";
 import Image from "next/image";
 import { BsFire } from "react-icons/bs";
 
