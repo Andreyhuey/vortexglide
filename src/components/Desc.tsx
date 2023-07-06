@@ -5,7 +5,7 @@ import spiderMan from "../assets/Rectangle_4.svg";
 const Desc = () => {
   return (
     <>
-      <div className="px-4 lg:px-40 py-12 bg-[#1C140F]">
+      <div className="px-4 lg:px-40 pt-12 pb-24 bg-[#1C140F]">
         <p className="font-semibold text-[29px] lg:text-[35px] text-center">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
