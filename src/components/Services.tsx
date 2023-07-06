@@ -14,7 +14,7 @@ const Services = () => {
   return (
     <>
       <div
-        className={`py-12 px-4 lg:px-20 bg-[url('../assets/services-bg.svg')] bg-blend-darken `}
+        className={`py-12 px-4 lg:px-40 bg-[url('../assets/services-bg.svg')] bg-blend-darken `}
       >
         <div className="py-7">
           <div className="flex items-center justify-center py-7">

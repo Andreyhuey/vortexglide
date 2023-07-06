@@ -6,6 +6,7 @@ import {
   Desc,
   Services,
   Projects,
+  Newsletter,
 } from "@/components";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Desc />
         <Services />
         <Projects />
+        <Newsletter />
         <Footer />
       </main>
     </>

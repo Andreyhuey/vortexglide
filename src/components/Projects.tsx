@@ -13,7 +13,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <>
-      <div className="px-4 lg:px-20 py-16 bg-[000000]">
+      <div className="px-4 lg:px-40 py-16 bg-[000000]">
         <div className="text-center py-10">
           <h6 className="font-bold text-[30px]">Our Recent Projects</h6>
           <p className="py-6">
