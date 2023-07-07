@@ -1,7 +1,30 @@
-import React from "react";
+import {
+  Card,
+  Footer,
+  HeaderA,
+  Navbar,
+  Newsletter,
+  Team,
+  Work,
+} from "@/components";
 
 const index = () => {
-  return <div>Hellow About</div>;
+  return (
+    <>
+      <head>
+        <title>About Gaming</title>
+      </head>
+      <main>
+        <Navbar />
+        <HeaderA />
+        <Work />
+        <Card />
+        <Team />
+        <Newsletter />
+        <Footer />
+      </main>
+    </>
+  );
 };
 
 export default index;
