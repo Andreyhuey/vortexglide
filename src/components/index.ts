@@ -16,6 +16,10 @@ import Work from "./AboutComp/Work";
 import Card from "./AboutComp/Card";
 import Team from "./AboutComp/Team";
 
+// Contact Comp
+import HeaderC from "./ContactComp/HeaderC";
+import Form from "./ContactComp/Form";
+
 export {
   Navbar,
   Footer,
@@ -29,4 +33,6 @@ export {
   Work,
   Card,
   Team,
+  HeaderC,
+  Form,
 };
