@@ -31,8 +31,8 @@ const HeaderC = () => {
           </div>
           <Image src={global} alt="globe" />
           <div>
-            <div className="flex justify-center items-center lg:flex-row flex-col gap-6 py-12 w-full h-full">
-              <div className="lg:border-r-[1px] lg:border-b-0  border-b-[1px] border-white px-10 py-3 w-full lg:h-[100px] flex items-start flex-col gap-4">
+            <div className="flex justify-center items-center lg:flex-row flex-col py-12 w-full h-full">
+              <div className="lg:border-r-[1px] lg:border-b-0  border-b-[1px] border-white px-10 py-3 w-full h-[120px] flex items-start flex-col gap-4">
                 follow us
                 <div className="flex items-center justify-center">
                   <div className="flex w-full flex-row items-center gap-4 justify-center md:justify-start lg:justify-center">
@@ -66,11 +66,11 @@ const HeaderC = () => {
                   </div>
                 </div>
               </div>
-              <div className="lg:border-r-[1px] lg:border-b-0 border-b-[1px] border-white px-10 py-3 w-full lg:h-[100px] flex gap-3 items-center justify-start lg:justify-center">
+              <div className="lg:border-r-[1px] lg:border-b-0 border-b-[1px] border-white px-10 py-3 w-full h-[120px] flex gap-3 items-center justify-start lg:justify-center">
                 <LiaPhoneVolumeSolid color="white" size={20} />
                 +94 4444 5555 6
               </div>
-              <div className="px-10 py-3 w-full flex gap-3 items-center justify-start lg:justify-center">
+              <div className="px-10 py-3 w-full flex gap-3 items-center justify-start lg:justify-center h-[120px]">
                 <FaLocationDot size={20} />
                 but also the leap into electronic typesetting
               </div>
