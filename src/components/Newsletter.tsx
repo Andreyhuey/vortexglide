@@ -12,7 +12,7 @@ const Newsletter = () => {
             industry.{" "}
           </p>
         </div>
-        <div className="p-12 bg-[#473327] rounded-[20px]">
+        <div className="lg:p-12 p-3 bg-[#473327] rounded-[20px]">
           <div className="flex justify-between items-center flex-col lg:flex-row gap-4">
             <div>
               <h6 className="font-medium text-[30px]">Stay in the loop</h6>
