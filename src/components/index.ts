@@ -20,11 +20,14 @@ import Team from "./AboutComp/Team";
 import HeaderC from "./ContactComp/HeaderC";
 import Form from "./ContactComp/Form";
 
-//
+// Services Comp
 import HeaderS from "./ServicesComp/HeaderS";
 import Testimonials from "./ServicesComp/Testimonials";
 import DescS from "./ServicesComp/Desc";
 import VideoPlayer from "./ServicesComp/VideoPlayer";
+
+// News Comp
+import HeaderN from "./NewsComp/HeaderN";
 
 export {
   Navbar,
@@ -45,4 +48,5 @@ export {
   Testimonials,
   DescS,
   VideoPlayer,
+  HeaderN,
 };
