@@ -27,8 +27,8 @@ const HeaderN = () => {
             <div className="bg-[#1C140F] flex items-center justify-center  gap-1 rounded-xl lg:w-[400px] p-2 px-4">
               <AiOutlineSearch size={20} />
               <input
-                placeholder="Search"
-                className="bg-[#1C140F] w-full ml-2 focus:outline-none rounded-r-xl "
+                placeholder="Search..."
+                className="bg-[#1C140F] w-full ml-2 focus:outline-none rounded-r-xl placeholder:text-[#ffffffec]"
               />
             </div>
           </div>

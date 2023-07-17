@@ -28,6 +28,7 @@ import VideoPlayer from "./ServicesComp/VideoPlayer";
 
 // News Comp
 import HeaderN from "./NewsComp/HeaderN";
+import News from "./NewsComp/News";
 
 export {
   Navbar,
@@ -49,4 +50,5 @@ export {
   DescS,
   VideoPlayer,
   HeaderN,
+  News,
 };

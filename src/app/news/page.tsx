@@ -1,4 +1,4 @@
-import { Footer, Navbar, HeaderN, Newsletter } from "@/components";
+import { Footer, Navbar, HeaderN, Newsletter, News } from "@/components";
 
 import React from "react";
 
@@ -7,6 +7,7 @@ const page = () => {
     <>
       <Navbar />
       <HeaderN />
+      <News />
       <Newsletter />
       <Footer />
     </>
