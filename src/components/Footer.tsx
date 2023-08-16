@@ -14,12 +14,12 @@ const Footer = () => {
       <div className="w-full bg-[#070707] py-5">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-[40px] justify-between gap-6 px-4 lg:px-16">
           <div className="flex flex-col items-start justify-start gap-5">
-            <h2 className="font-[700] text-[24px]">LOGO</h2>
+            <h2 className="font-[700] text-[24px]">VortexGlide</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <p>@logo</p>
+            <p>@vortexglide</p>
           </div>
           <div className="flex lg:items-center flex-col justify-center items-start ">
             <div className="flex gap-3 flex-col">
@@ -74,7 +74,13 @@ const Footer = () => {
         </div>
         <div className="border-t-[1px] border-white pt-5 pb-4">
           <p className="text-center">
-            Copyright ® 2021 Lorem All rights Rcerved
+            Copyright ® 2023 All rights reserved by{" "}
+            <a
+              href="https://andreyhuey.github.com"
+              className="text-[#E47500] underline"
+            >
+              developer
+            </a>
           </p>
         </div>
       </div>

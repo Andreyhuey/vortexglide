@@ -23,6 +23,7 @@ import Form from "./ContactComp/Form";
 // Services Comp
 import HeaderS from "./ServicesComp/HeaderS";
 import Testimonials from "./ServicesComp/Testimonials";
+import TestimonialsCarousel from "./ServicesComp/TestimonialsCarousel";
 import DescS from "./ServicesComp/Desc";
 import VideoPlayer from "./ServicesComp/VideoPlayer";
 
@@ -47,6 +48,7 @@ export {
   Form,
   HeaderS,
   Testimonials,
+  TestimonialsCarousel,
   DescS,
   VideoPlayer,
   HeaderN,
