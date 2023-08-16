@@ -24,7 +24,7 @@ const Header = () => {
               </h6>
               <p className="lg:w-[425px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry`&apos;`s standard
+                industry. Lorem Ipsum has been the industry&apos;s standard
                 dummy text ever since the 1500s.
               </p>
               <div>
