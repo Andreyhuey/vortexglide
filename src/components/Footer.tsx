@@ -76,7 +76,8 @@ const Footer = () => {
           <p className="text-center">
             Copyright ® 2023 All rights reserved by{" "}
             <a
-              href="https://andreyhuey.github.com"
+              href="https://andreyhuey.github.io/portfolio/"
+              target="_blank"
               className="text-[#E47500] underline"
             >
               developer
