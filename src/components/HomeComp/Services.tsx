@@ -29,7 +29,7 @@ const Services = () => {
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 justify-center items-center">
               <div className="flex flex-col items-center gap-5 justify-center">
                 <Image src={phone} alt="phone image" />
                 <p>Mobile Game Development</p>
