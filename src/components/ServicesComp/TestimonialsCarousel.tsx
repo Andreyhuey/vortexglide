@@ -21,8 +21,8 @@ const TestimonialsCarousel = ({ item }: Prop) => {
   const { name, image, rating, desc, location } = item;
   return (
     <>
-      <div className="border border-[#E47500] p-5 rounded w-full h-52 cursor-pointer">
-        <div className="flex items-center justify-between">
+      <div className="border border-[#DDDDDD] p-5 rounded w-[100%] h-56 cursor-pointer hover:border-[#E47500] hover:bg-[#0F0901]">
+        <div className="flex flex-row items-center justify-between w-full">
           <div className="flex items-start justify-between gap-3">
             <Image src={image} className="rounded-full" alt={name} />
             <div>
@@ -31,12 +31,12 @@ const TestimonialsCarousel = ({ item }: Prop) => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between gap-2">
+          <div className="flex flex-row items-center justify-between gap-2">
             <p>{rating}</p>
-            <AiFillStar className="text-[#FEA250]" size={17} />
+            <AiFillStar className="text-[#FEA250]" size={18} />
           </div>
         </div>
-        <div className="pt-3 text-[15px] lg:w-[300px]">{desc}</div>
+        <div className="pt-4 text-[15px] w-[240px] md:w-[300px]">{desc}</div>
       </div>
     </>
   );

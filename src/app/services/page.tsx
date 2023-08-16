@@ -11,7 +11,7 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <main>
+      <main className="w-full">
         <Navbar />
         <HeaderS />
         <DescS />
