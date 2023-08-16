@@ -18,10 +18,10 @@ const Desc = () => {
               </p>
               <p className="py-7">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries,
+                industry. Lorem Ipsum has been the industry`&apos;`s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries,
               </p>
               <Link href="" className="px-4 py-2 bg-[#DC7000]">
                 Read more
@@ -42,10 +42,10 @@ const Desc = () => {
               </p>
               <p className="py-7">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries,
+                industry. Lorem Ipsum has been the industry`&apos;`s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries,
               </p>
               <Link href="" className="px-4 py-2 bg-[#DC7000]">
                 Read more
@@ -60,10 +60,10 @@ const Desc = () => {
               </p>
               <p className="py-7">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries,
+                industry. Lorem Ipsum has been the industry`&apos;`s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries,
               </p>
               <Link href="" className="px-4 py-2 bg-[#DC7000]">
                 Read more

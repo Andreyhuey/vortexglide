@@ -14,8 +14,8 @@ const Work = () => {
               <p className="font-semibold text-[20px]">Lorem ipsum</p>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,
+                industry. Lorem Ipsum has been the industry`&apos;`s standard
+                dummy text ever since the 1500s,
               </p>
             </div>
 
@@ -26,8 +26,8 @@ const Work = () => {
               <p className="font-semibold text-[20px]">Lorem ipsum</p>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,
+                industry. Lorem Ipsum has been the industry`&apos;`s standard
+                dummy text ever since the 1500s,
               </p>
             </div>
 
@@ -38,8 +38,8 @@ const Work = () => {
               <p className="font-semibold text-[20px]">Lorem ipsum</p>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,
+                industry. Lorem Ipsum has been the industry`&apos;`s standard
+                dummy text ever since the 1500s,
               </p>
             </div>
           </div>

@@ -18,7 +18,7 @@ const Header = () => {
             </p>
             <p className="lg:w-[350px]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard.
+              industry. Lorem Ipsum has been the industry`&apos;`s standard.
             </p>
             <Link href="" className="px-4 py-2 bg-[#E87D0E] rounded-3xl">
               Get more details

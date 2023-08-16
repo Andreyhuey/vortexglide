@@ -9,7 +9,7 @@ export const testimonials = [
     location: "Warsaw, Poland",
     image: chr1,
     rating: 4.6,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`&apos;`s standard dummy text ever since the 1500s,",
   },
   {
     id: 1,
@@ -33,7 +33,7 @@ export const testimonials = [
     location: "Warsaw, Ethopia",
     image: chr1,
     rating: 4.6,
-    desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    desc: "Lorem Ipsum has been the industry`&apos;`s standard dummy text ever since the 1500s,",
   },
   {
     id: 4,

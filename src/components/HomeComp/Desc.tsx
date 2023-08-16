@@ -18,8 +18,8 @@ const Desc = () => {
             <p className="text-[27px] font-semibold">Lorem Ipsum</p>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+              industry. Lorem Ipsum has been the industry`&apos;`s standard
+              dummy text ever since the 1500s,
             </p>
           </div>
           <div className="flex-1"></div>
