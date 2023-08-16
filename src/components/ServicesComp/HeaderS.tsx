@@ -12,8 +12,17 @@ import { CgDatabase } from "react-icons/cg";
 import { FaLocationDot } from "react-icons/fa6";
 import VideoPlayer from "./VideoPlayer";
 import videopic from "../../assets/Video_Image.svg";
+import CountUp, { useCountUp } from "react-countup";
 
 const HeaderS = () => {
+  useCountUp({
+    ref: "counter",
+    end: 0,
+    enableScrollSpy: true,
+    scrollSpyDelay: 1000,
+    duration: 15,
+  });
+
   const [vidPlaying, setVidPlaying] = useState(false);
 
   return (
@@ -44,7 +53,10 @@ const HeaderS = () => {
                 <BsFillPersonFill color="#DC7000" size="24" />
               </div>
               <div>
-                <p className="font-bold text-[25px]">90+</p>
+                <p className="font-bold text-[25px]">
+                  <CountUp end={90} duration={5} enableScrollSpy />+
+                </p>
+
                 <p>Clients</p>
               </div>
             </div>
@@ -53,7 +65,9 @@ const HeaderS = () => {
                 <FaLocationDot color="#DC7000" size="24" />
               </div>
               <div>
-                <p className="font-bold text-[25px]">30+</p>
+                <p className="font-bold text-[25px]">
+                  <CountUp end={30} duration={5} enableScrollSpy />+
+                </p>
                 <p>Countries</p>
               </div>
             </div>
@@ -62,7 +76,9 @@ const HeaderS = () => {
                 <CgDatabase color="#DC7000" size="24" />
               </div>
               <div>
-                <p className="font-bold text-[25px]">50+</p>
+                <p className="font-bold text-[25px]">
+                  <CountUp end={50} duration={5} enableScrollSpy />+
+                </p>
                 <p>Projects</p>
               </div>
             </div>
