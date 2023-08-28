@@ -24,11 +24,12 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`fixed h-auto w-full left-0 top-0 z-30 bg-black py-5 lg:px-16`}
+        className={`fixed h-auto w-full left-0 top-0 z-30 bg-black py-5 lg:px-16
+        }`}
       >
         <div className="flex items-center justify-between px-4">
           <div>
-            <Link className={`${nav ? "opacity-0" : ""}`} href="/">
+            <Link className={``} href="/">
               <h2 className="font-[700] text-[24px]">VortexGlide</h2>
             </Link>
           </div>
@@ -74,10 +75,10 @@ const Navbar = () => {
             className={
               !nav
                 ? "hidden"
-                : "absolute h-screen w-full cursor-pointer bg-black py-5"
+                : "absolute h-screen w-full cursor-pointer bg-opacity-95 bg-black py-5 shadow transform transition-transform duration-300 ease-in-out"
             }
           >
-            <div className="flex flex-col items-center justify-center gap-16 w-full">
+            <div className="flex flex-col items-center justify-center pt-10 gap-16 w-full">
               <li>
                 <Link href="/">Home</Link>
               </li>
