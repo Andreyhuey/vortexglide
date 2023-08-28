@@ -12,17 +12,17 @@ const Newsletter = () => {
             industry.{" "}
           </p>
         </div>
-        <div className="lg:p-12 p-3 bg-[#473327] rounded-[20px]">
-          <div className="flex justify-between items-center flex-col lg:flex-row gap-4">
-            <div>
-              <h6 className="font-medium text-[30px] ">Stay in the loop</h6>
+        <div className="lg:p-12 p-5 bg-[#473327] rounded-[20px]">
+          <div className="flex justify-between items-center flex-col md:flex-row gap-6">
+            <div className="text-center md:text-start">
+              <h6 className="font-medium text-[30px]">Stay in the loop</h6>
               <p className="lg:w-[480px]">
                 Subscribe to receive the latest news and updates about TDA. We
                 promise not to spam you!{" "}
               </p>
             </div>
-            <div>
-              <div className="rounded-xl flex items-center justify-center bg-slate-50 p-1 lg:w-[400px]">
+            <div className="md:w-full">
+              <div className="rounded-xl flex items-center justify-center md:w-full bg-slate-50 p-1 lg:w-[400px]">
                 <input
                   className="w-full ml-4 focus:outline-none text-black"
                   placeholder="Email address..."

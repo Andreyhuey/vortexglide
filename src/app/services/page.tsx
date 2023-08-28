@@ -11,7 +11,7 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <main className="w-full">
+      <main className=" overflow-hidden">
         <Navbar />
         <HeaderS />
         <DescS />
