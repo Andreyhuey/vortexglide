@@ -9,7 +9,7 @@ import cryEngine from "../../assets/cry_1.svg";
 const Header = () => {
   return (
     <>
-      <div className="px-4 lg:px-40 py-10 mt-[70px] lg:h-screen">
+      <div className="px-4 lg:px-40 pt-10 pb-16  mt-[70px] lg:min-h-screen">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
           <div className="flex-1 flex flex-col gap-5 items-start justify-start ">
             <p className="text-[#E87D0E] font-bold">3D game Dev </p>
