@@ -29,7 +29,7 @@ const Navbar = () => {
       >
         <div className="flex items-center justify-between px-4">
           <div>
-            <Link className={`${nav ? "opacity-0" : ""}`} href="/">
+            <Link className={`${nav ? "hidden" : ""}`} href="/">
               <h2 className="font-[700] text-[24px]">VortexGlide</h2>
             </Link>
           </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
             {!nav ? (
               <HiOutlineMenu className="text-[24px]" />
             ) : (
-              <IoCloseCircleOutline className="text-[24px] right-0 cursor-pointer" />
+              <IoCloseCircleOutline className="text-[26px] right-0 cursor-pointer" />
             )}
           </div>
         </div>
