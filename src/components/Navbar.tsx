@@ -29,7 +29,7 @@ const Navbar = () => {
       >
         <div className="flex items-center justify-between px-4">
           <div>
-            <Link className={``} href="/">
+            <Link className={`${nav ? "opacity-95" : ""}`} href="/">
               <h2 className="font-[700] text-[24px]">VortexGlide</h2>
             </Link>
           </div>
@@ -79,7 +79,7 @@ const Navbar = () => {
             }
           >
             <div className="flex flex-col items-center justify-center pt-10 gap-16 w-full">
-              <li>
+              <li onClick={handleClick}>
                 <Link href="/">Home</Link>
               </li>
               <li>
