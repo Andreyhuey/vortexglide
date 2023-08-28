@@ -70,7 +70,7 @@ const Desc = () => {
               </Link>
             </div>
             <div className="flex-1">
-              <Image src={sold} alt="fresh" />
+              <Image src={Cool} alt="fresh" />
             </div>
           </div>
         </div>
