@@ -29,7 +29,7 @@ const Navbar = () => {
       >
         <div className="flex items-center justify-between px-4">
           <div>
-            <Link className={`${nav ? "opacity-95" : ""}`} href="/">
+            <Link className={`${nav ? "opacity-0" : ""}`} href="/">
               <h2 className="font-[700] text-[24px]">VortexGlide</h2>
             </Link>
           </div>
