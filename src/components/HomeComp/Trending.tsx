@@ -22,13 +22,6 @@ const Trending = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10 gap-8">
             <div className="flex flex-col justify-center items-center">
-              <Image src={Image1} alt="game image" />
-              <div className="flex items-center justify-center gap-1 py-3">
-                <BsFire />
-                <p>40 Followers</p>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center">
               <Image src={Image2} alt="game image" />
               <div className="flex items-center justify-center gap-1 py-3">
                 <BsFire />
@@ -36,7 +29,14 @@ const Trending = () => {
               </div>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <Image src={Image3} alt="game image" />
+              <Image src={Image4} alt="game image" />
+              <div className="flex items-center justify-center gap-1 py-3">
+                <BsFire />
+                <p>40 Followers</p>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <Image src={Image2} alt="game image" />
               <div className="flex items-center justify-center gap-1 py-3">
                 <BsFire />
                 <p>40 Followers</p>
