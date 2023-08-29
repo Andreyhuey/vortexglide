@@ -10,7 +10,7 @@ const Desc = () => {
     <>
       <div className="px-4 lg:px-40 py-8">
         <div>
-          <div className="flex flex-col lg:flex-row gap-x-32 lg:gap-y-4 items-center justify-center pb-8">
+          <div className="flex flex-col lg:flex-row gap-x-32 gap-y-4 items-center justify-center pb-8">
             <div className="flex-1 lg:order-1 order-2">
               <p className="pt-4 font-semibold text-[28px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -28,12 +28,12 @@ const Desc = () => {
               </Link>
             </div>
             <div className="flex-1 lg:order-2 order-1">
-              <Image src={Cool} alt="Cool" className="w-[490px] h-[490px]" />
+              <Image src={Cool} alt="Cool" className="max-w-[100%] h-auto" />
             </div>
           </div>
           <div className="flex flex-col lg:flex-row gap-x-32 gap-y-4 items-center justify-center py-16">
             <div className="flex-1 lg:order-1">
-              <Image src={fresh} alt="fresh" />
+              <Image src={fresh} alt="fresh" className="max-w-[100%] h-auto" />
             </div>
             <div className="flex-1 lg:order-2">
               <p className="pt-4 font-semibold text-[28px]">
@@ -52,7 +52,7 @@ const Desc = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row gap-x-32 lg:gap-y-4 gap-y-[-4] items-center justify-center py-8">
+          <div className="flex flex-col lg:flex-row gap-x-32 gap-y-4  items-center justify-center py-8">
             <div className="flex-1 lg:order-1 order-2">
               <p className="pt-4 font-semibold text-[28px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -70,7 +70,7 @@ const Desc = () => {
               </Link>
             </div>
             <div className="flex-1 lg:order-2 order-1">
-              <Image src={Cool} alt="fresh" className="w-[490px] h-[490px]" />
+              <Image src={Cool} alt="fresh" className="max-w-[100%] h-auto" />
             </div>
           </div>
         </div>
